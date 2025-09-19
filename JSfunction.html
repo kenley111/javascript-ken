@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+<!--
+<h1>JavaScript Functions</h1>
+
+<p>Call a function to compute the product of p1 and p2 and return the result:</p>
+
+<p id="demo"></p>
+
+<script>
+
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+
+let result = myFunction(4, 3);
+document.getElementById("demo").innerHTML = "The result is: " + result;
+</script>
+-->
+
+<!--
+<h1>JavaScript Functions</h1>
+
+<p>Invoke (call) a function that converts from Fahrenheit to Celsius:</p>
+
+<p id="demo"></p>
+
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius(77);
+document.getElementById("demo").innerHTML = value;
+</script>
+-->
+
+
+
+
+<!--
+
+<h1>JavaScript Functions</h1>
+
+<p>Invoke (call) a function to convert from Fahrenheit to Celsius:</p>
+
+<p id="demo"></p>
+
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius();
+document.getElementById("demo").innerHTML = value;
+</script>
+-->
+
+<!--
+<h1>JavaScript Functions</h1>
+
+<p>Accessing a function without () returns the function and NOT the function result:</p>
+
+<p id="demo"></p>
+
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius;
+document.getElementById("demo").innerHTML = value;
+</script>
+-->
+
+<!--
+<h1>JavaScript Functions</h1>
+<h2>Function Expression</h2>
+
+<p id="demo"></p>
+
+<script>
+
+let myFunction = function(a, b) {return a * b};
+
+let result = myFunction(4, 3);
+document.getElementById("demo").innerHTML = "The product is: " + result;
+</script>
+-->
+
+<!--
+<h1>JavaScript Functions</h1>
+<h2>The Arrow Function</h2>
+
+<p>This example shows the syntax of an Arrow Function, and how to use it.</p>
+
+<p id="demo"></p>
+
+<script>
+myFunction = (a, b) => a * b;
+
+let result = myFunction(4, 5);
+document.getElementById("demo").innerHTML = "The product is: " + result
+</script>
+-->
+
+<!--
+<h1>JavaScript Functions</h1>
+
+<p>Outside myFunction() carName is undefined.</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+let text = "Outside: " + typeof carName;
+document.getElementById("demo1").innerHTML = text;
+
+function myFunction() {
+  let carName = "Volvo";
+  let text = "Inside: " + typeof carName + " " + carName; 
+  document.getElementById("demo2").innerHTML = text;
+}
+
+myFunction();
+</script>
+-->
+
+<!--
+<h1>JavaScript Functions</h1>
+
+<p id="demo"></p>
+
+<script>
+
+function greet(name, age) {
+  return "Hello " + name + "! You are " + age + " years old.";
+}
+
+document.getElementById("demo").innerHTML = greet("John", 21);
+</script>
+-->
+
+
+<!--
+<h1>JavaScript Functions</h1>
+
+<p id="demo"></p>
+
+<script>
+// name and age are parameters<br>
+function greet(name, age) {
+  return "Hello " + name + "! You are " + age + " years old.";
+}
+
+document.getElementById("demo").innerHTML = greet("John", 21);
+</script>
+-->
+
+
+<!--<h1>JavaScript Functions</h1>
+<p>Using a function as a variable:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "The temperature is " + toCelsius(77) + " Celsius.";
+document.getElementById("demo").innerHTML = text;
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+</script>-->
+
+
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+
+<!--    
+<h1>JavaScript Functions</h1>
+<p>Using a function as a variable:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "The temperature is " + toCelsius(77) + " Celsius.";
+document.getElementById("demo").innerHTML = text;
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+</script>
+-->
+
+<!--
+<h1>Creating JavaScript Objects</h1>
+<h2>Using an Object Literal</h2>
+
+<p id="demo"></p>
+
+<script>
+
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+-->
+
+
+<!--
+<h1>Creating JavaScript Objects</h1>
+<h2>Using an Object Literal</h2>
+
+<p id="demo"></p>
+
+<script>
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+-->
+
+<!--
+<h1>Creating JavaScript Objects</h1>
+<h2>Creating an Empty Object</h2>
+
+<p id="demo"></p>
+
+<script>
+const person = {};
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue"; 
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+-->
+
+<!--
+<h1>Creating JavaScript Objects</h1>
+<h2>Using the new Keyword</h2>
+
+<p id="demo"></p>
+
+<script>
+
+const person = new Object({
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue" 
+});
+
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+-->
+
+
+<!--
+<h1>JavaScript Object Properties</h1>
+<h2>Access a Property with .</h2>
+
+<p id="demo"></p>
+
+<script>
+const person = {
+  firstname: "John",
+  lastname: "Doe",
+  age: 50,
+  eyecolor: "blue"
+};
+
+document.getElementById("demo").innerHTML = person.firstname + " is " + person.age + " years old.";
+</script>
+-->
+
+
+<!--
+<h1>JavaScript Object Properties</h1>
+<h2>Access a Property with []</h2>
+
+<p id="demo"></p>
+
+<script>
+const person = {
+  firstname: "John",
+  lastname: "Doe",
+  age: 50,
+  eyecolor: "blue"
+};
+
+document.getElementById("demo").innerHTML = person["firstname"] + " is " + person["age"] + " years old.";
+</script>
+-->
+
+
+
+<!--
+<h1>JavaScript Objects</h1>
+<h2>Object Methods</h2>
+<p>A method is a function definition stored as a property value.</p>
+
+<p id="demo"></p>
+
+<script>
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
+-->
+
+<!--
+<h1>JavaScript Objects</h1>
+<p>Displaying a JavaScript object will output:</p>
+<p id="demo"></p>
+
+<script>
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+let text = person;
+
+document.getElementById("demo").innerHTML = text;
+</script>
+-->
+
+
+
+<!--
+<h1>JavaScript Objects</h1>
+<h2>Displaying Properties</h2>
+
+<p id="demo"></p>
+
+<script>
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+
+let text = person.name + ", " + person.age + ", " + person.city;
+
+document.getElementById("demo").innerHTML = text;
+</script>
+-->
+
+<!--
+<h1>JavaScript Objects</h1> 
+<h2>Object Constructors</h2>
+
+<p id="demo"></p>
+<script>
+
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+const myFather = new Person("John", "Doe", 50, "blue");
+document.getElementById("demo").innerHTML =
+"My father is " + myFather.age + "."; 
+</script>
+-->
+
+
+
+<!--<h1>JavaScript Objects</h1> 
+<h2>Object Constructors</h2>
+
+<p id="demo"></p>
+
+<script>
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+const myFather = new Person("John", "Doe", 50, "blue");
+const myMother = new Person("Sally", "Rally", 48, "green");
+
+document.getElementById("demo").innerHTML =
+"My father is " + myFather.age + ". My mother is " + myMother.age + "."; 
+
+</script>-->
